@@ -50,7 +50,7 @@ def getDataByName(name: str):
         # tampilkan pesan error
         # klo nampilin pesan error harus pake raise
         raise HTTPException(
-            status_code=404, detail="data" + name + "tidak ditemukan")
+            status_code=404, detail="data " + name + " tidak ditemukan")
 
 
 # delete data yang ada di csv
